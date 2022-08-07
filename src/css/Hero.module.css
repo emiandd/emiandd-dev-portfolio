@@ -24,6 +24,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 2rem 0;
+  font-weight: 500;
 }
 .hero .left p,
 .hero .left p:first-of-type,
