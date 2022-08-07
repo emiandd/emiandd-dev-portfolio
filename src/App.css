@@ -41,8 +41,8 @@ main {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 5rem;
+  margin: 0;
 }
 
 /* Grouping content
@@ -356,4 +356,5 @@ template {
 
 p{
   margin: 0;
+  font-size: 2rem;
 }

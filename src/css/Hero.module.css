@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+}
+.hero .left,
+.hero .right {
+  width: 50%;
+  height: 59rem;
+}
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero .left p {
+  margin-bottom: 5rem;
+}
+.hero .left p:first-of-type {
+  margin: 0;
+}
+.hero .left h1 {
+  font-size: 12rem;
+  line-height: 7.9rem;
+  background: -webkit-linear-gradient(#FF6A00, #F24C36, #EE0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2rem 0;
+}
+.hero .left p,
+.hero .left p:first-of-type,
+.hero .left h1 {
+  margin-left: 9rem;
+}
+.hero .right img {
+  height: 59rem;
+  width: 59rem;
+}

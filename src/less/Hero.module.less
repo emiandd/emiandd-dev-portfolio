@@ -1,0 +1,47 @@
+@import "variables";
+
+.hero{
+	display: flex;
+
+	.left, 
+	.right{
+		width: 50%;
+		height: 59rem;
+	}
+
+	.left{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		p{
+			margin-bottom: 5rem;
+		}
+
+		p:first-of-type{
+			margin: 0;
+		}
+
+		h1{
+			font-size: 12rem;
+			line-height: 7.9rem;
+			background: -webkit-linear-gradient(@orangeBlaze, @orangeSoda, @redPurple);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			padding: 2rem 0;
+		}
+
+		p,
+		p:first-of-type,
+		h1{
+			margin-left: 9rem;
+		}
+	}
+
+	.right{
+		img{
+			height: 59rem;
+			width: 59rem;
+		}
+	}
+}
