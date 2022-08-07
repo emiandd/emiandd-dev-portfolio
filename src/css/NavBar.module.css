@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem 0 6.5rem;
+  border: 0.1rem solid #EE0979;
+}
+nav .logo {
+  width: 8rem;
+}
+nav .menu {
+  display: flex;
+  gap: 3rem;
+}
+nav .menu p {
+  font-size: 1.85rem;
+  color: black;
+}
+nav .menu p:hover {
+  cursor: pointer;
+  color: #333399;
+}

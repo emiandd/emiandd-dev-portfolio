@@ -78,6 +78,8 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
+  margin: 0;
 }
 
 /**
@@ -150,6 +152,7 @@ sup {
 
 img {
   border-style: none;
+  width: 100%;
 }
 
 /* Forms
@@ -349,4 +352,8 @@ template {
 
 [hidden] {
   display: none;
+}
+
+p{
+  margin: 0;
 }
