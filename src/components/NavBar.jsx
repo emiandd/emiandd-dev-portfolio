@@ -14,7 +14,7 @@ export default function NavBar() {
 					<p>Portfolio</p>
 				</Link>
 				<Link to="/about-me">
-					<p>Acerca de</p>
+					<p>Sobre mi</p>
 				</Link>
 				<Link to="/contact">
 					<p>Contacto</p>
