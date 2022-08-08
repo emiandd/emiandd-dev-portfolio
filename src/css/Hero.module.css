@@ -77,6 +77,10 @@
     line-height: 4.5rem;
   }
 }
+.hero .right {
+  display: flex;
+  justify-content: center;
+}
 .hero .right img {
   height: 59rem;
   width: 59rem;
@@ -89,8 +93,6 @@
 }
 @media (max-width: 1023px) {
   .hero .right img {
-    display: flex;
-    justify-content: center;
     height: 40rem;
     width: 40rem;
   }
