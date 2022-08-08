@@ -19,3 +19,8 @@ nav .menu p:hover {
   cursor: pointer;
   color: #333399;
 }
+.activeMenu {
+  font-size: 1.85rem;
+  color: #333399 !important;
+  border-bottom: 0.2rem solid #333399;
+}

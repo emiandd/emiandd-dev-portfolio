@@ -9,12 +9,8 @@ export default function Loader() {
 		setLoader(false);
 	},3500)
 
-	if(loader){
-		document.body.style.overflow = 'hidden';
-	}else{
-		document.body.style.overflow = 'visible';
-	}
-
+	if(loader) document.body.style.overflow = 'hidden';
+	else document.body.style.overflow = 'visible';
 
 	return (
 		<div className={loader ? s.loaderContainer : s.displayNone}>
