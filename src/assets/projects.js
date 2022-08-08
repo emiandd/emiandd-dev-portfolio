@@ -40,6 +40,27 @@ export const projects = [
 		projectName: 'Clipboard Landing',
 		repo: 'https://github.com/emiandd/clipboard-landing-page',
 		demo: 'https://priceless-kepler-85804c.netlify.app/',
+	},
+	{
+		img: 'https://i.postimg.cc/D0D9gQpM/Screenshot-2022-08-08-at-14-07-03-Chat-App-CSS-Illustration-Master-Frontend-Mentor-Challenge-emiandd.png',
+		year: 2021,
+		projectName: 'Chat CSS Illustration',
+		repo: 'https://github.com/emiandd/chat-app-css-illustration-master',
+		demo: 'https://adoring-lamarr-e71747.netlify.app/',
+	},
+	{
+		img: 'https://i.postimg.cc/BQ6jh2MQ/Screenshot-2022-08-08-at-14-37-12-Huddle-Landing-Page-Alternating-Feature-Blocks-Frontend-Mentor-Cha.png',
+		year: 2021,
+		projectName: 'Huddle Landing',
+		repo: 'https://github.com/emiandd/huddle-landing-page-alternating-feature-blocks',
+		demo: 'https://super-daifuku-1617a2.netlify.app/',
+	},
+	{
+		img: 'https://i.postimg.cc/GtnZ4PtP/Screenshot-2022-08-08-at-14-39-51-Four-Card-Feature-Section-Frontend-Mentor-Challenge-Anevara-Web-Buil.png',
+		year: 2021,
+		projectName: 'Four Card Section',
+		repo: 'https://github.com/emiandd/four-card-feature-section',
+		demo: 'https://angry-wozniak-fecbb2.netlify.app/',
 	}
 
 ]
