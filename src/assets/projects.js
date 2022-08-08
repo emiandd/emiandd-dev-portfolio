@@ -37,7 +37,7 @@ export const projects = [
 	{
 		img: 'https://i.postimg.cc/XYpwSRR0/Screenshot-2022-08-07-at-02-06-11-Clipboard-Landing-Page-Frontend-Mentor-Challenge-Anevara-Web-Builder.png',
 		year: 2021,
-		projectName: 'Clipboard Landing Page',
+		projectName: 'Clipboard Landing',
 		repo: 'https://github.com/emiandd/clipboard-landing-page',
 		demo: 'https://priceless-kepler-85804c.netlify.app/',
 	}

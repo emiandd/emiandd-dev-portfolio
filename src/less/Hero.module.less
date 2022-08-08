@@ -3,10 +3,25 @@
 .hero{
 	display: flex;
 
+	@media @verticalTablet{
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.left, 
 	.right{
 		width: 50%;
 		height: 59rem;
+
+		@media @verticalTablet{
+			width: 100%;
+			height: 45rem;
+		}
+
+		@media @smallPhone{
+			height: 30rem;
+		}
+
 	}
 
 	.left{
@@ -37,12 +52,64 @@
 		h1{
 			margin-left: 9rem;
 		}
+
+		@media @horizontalTablet{
+			p,
+			p:first-of-type,
+			h1{
+				margin-left: 4rem;
+			}
+
+			h1{
+				font-size: 11rem;
+			}
+		}
+
+		@media @verticalTablet{
+			p,
+			p:first-of-type,
+			h1{
+				margin-left: 0;
+				text-align: center;
+			}
+		}
+
+		@media @smallPhone{
+			p{
+				font-size: 1.7rem;
+			}
+
+			h1{
+				font-size: 8rem;
+				line-height: 4.5rem;
+			}
+		}
 	}
 
 	.right{
 		img{
 			height: 59rem;
 			width: 59rem;
+
+			@media @horizontalTablet{
+				height: 50rem;
+				width: 50rem;
+			}
+
+			@media @verticalTablet{
+				display: flex;
+				justify-content: center;
+				height: 40rem;
+				width: 40rem;
+
+			}
+			
+			@media @smallPhone{
+				width: 37rem;
+				height: 37rem;
+			}
 		}
 	}
+
+}
 }

@@ -6,8 +6,13 @@
   padding: 1rem;
   transition: all 0.3s ease-in-out;
 }
+@media (max-width: 767px) {
+  .card {
+    width: 29rem;
+  }
+}
 .card:hover {
-  scale: 110%;
+  scale: 108%;
   box-shadow: 0 0 2rem -1rem;
 }
 .card .mask {
@@ -22,6 +27,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 767px) {
+  .card .mask {
+    height: 100%;
+    top: -15.3rem;
+  }
 }
 .card .mask p {
   position: absolute;
@@ -39,10 +50,6 @@
 .card img {
   transform: scaleY(1);
   transition: all 0.7s ease-in-out;
-}
-.card img:hover {
-  transform: scale(10);
-  opacity: 0;
 }
 .card .buttons {
   position: absolute;

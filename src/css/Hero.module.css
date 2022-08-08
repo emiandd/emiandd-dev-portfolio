@@ -1,10 +1,29 @@
 .hero {
   display: flex;
 }
+@media (max-width: 1023px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .hero .left,
 .hero .right {
   width: 50%;
   height: 59rem;
+}
+@media (max-width: 1023px) {
+  .hero .left,
+  .hero .right {
+    width: 100%;
+    height: 45rem;
+  }
+}
+@media (max-width: 500px) {
+  .hero .left,
+  .hero .right {
+    height: 30rem;
+  }
 }
 .hero .left {
   display: flex;
@@ -31,7 +50,56 @@
 .hero .left h1 {
   margin-left: 9rem;
 }
+@media (max-width: 1199px) {
+  .hero .left p,
+  .hero .left p:first-of-type,
+  .hero .left h1 {
+    margin-left: 4rem;
+  }
+  .hero .left h1 {
+    font-size: 11rem;
+  }
+}
+@media (max-width: 1023px) {
+  .hero .left p,
+  .hero .left p:first-of-type,
+  .hero .left h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .hero .left p {
+    font-size: 1.7rem;
+  }
+  .hero .left h1 {
+    font-size: 8rem;
+    line-height: 4.5rem;
+  }
+}
 .hero .right img {
   height: 59rem;
   width: 59rem;
+}
+@media (max-width: 1199px) {
+  .hero .right img {
+    height: 50rem;
+    width: 50rem;
+  }
+}
+@media (max-width: 1023px) {
+  .hero .right {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .right img {
+    height: 40rem;
+    width: 40rem;
+  }
+}
+@media (max-width: 1023px) and (max-width: 500px) {
+  .hero .right img {
+    width: 37rem;
+    height: 37rem;
+  }
 }

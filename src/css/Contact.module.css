@@ -9,6 +9,11 @@
   font-size: 3.6rem;
   margin-bottom: 3rem;
 }
+@media (max-width: 767px) {
+  .main p {
+    font-size: 2rem;
+  }
+}
 .main div {
   display: flex;
   height: 8rem;
@@ -18,6 +23,11 @@
 }
 .main div .icon {
   height: 8rem;
+}
+@media (max-width: 767px) {
+  .main div .icon {
+    height: 4rem;
+  }
 }
 .main div .icon:hover {
   fill: #4545CD;

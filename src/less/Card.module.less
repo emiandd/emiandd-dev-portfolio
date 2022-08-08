@@ -8,8 +8,12 @@
 	padding: 1rem;
 	transition: all 0.3s ease-in-out;
 
+	@media @smallPhone{
+		width: 29rem;
+	}
+
 	&:hover{
-		scale: 110%;
+		scale: 108%;
 		box-shadow: 0 0 2rem -1rem;
 	}
 
@@ -26,6 +30,11 @@
 		justify-content: center;
 		align-items: center;
 
+		@media @smallPhone{
+			height: 100%;
+			top: -15.3rem;
+		}
+
 		p{
 			position: absolute;
 			color: white;
@@ -38,8 +47,6 @@
 			font-size: 1.4rem;
 		}
 
-		
-
 		&:hover{
 			opacity: 1;
 		}
@@ -48,11 +55,6 @@
 	img{ 
 		transform: scaleY(1);
 		transition: all 0.7s ease-in-out;
-
-		&:hover{
-			transform: scale(10);
-			opacity: 0;
-		}
 	}
 
 	.buttons{
