@@ -63,6 +63,12 @@
   gap: 1rem;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .card .technologies {
+    overflow: hidden;
+    top: -2.3rem;
+  }
+}
 .card .technologies p {
   position: relative;
   font-weight: 200;
