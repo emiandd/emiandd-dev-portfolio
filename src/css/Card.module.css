@@ -18,7 +18,7 @@
 }
 .card .mask {
   position: relative;
-  background-color: rgba(0 0 0 / 0.7);
+  background-color: rgba(0 0 0 / 0.8);
   transition: all 0.3s linear;
   opacity: 0;
   width: 100%;
@@ -40,10 +40,10 @@
   color: white;
   font-size: 3rem;
 }
-.card .mask p:first-of-type {
+.card .mask .year {
   top: 1.5rem;
   font-weight: 200;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 .card .mask:hover {
   opacity: 1;
@@ -51,6 +51,22 @@
 .card img {
   transform: scaleY(1);
   transition: all 0.7s ease-in-out;
+}
+.card .technologies {
+  height: 2.3rem;
+  width: 100%;
+  position: relative;
+  top: -4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card .technologies p {
+  position: relative;
+  font-weight: 200;
+  font-size: 1.4rem;
 }
 .card .buttons {
   position: absolute;

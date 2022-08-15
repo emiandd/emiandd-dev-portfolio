@@ -12,6 +12,7 @@ export default function Projects() {
 						projectName={p.projectName}
 						repo={p.repo}
 						demo={p.demo}
+						technologies={p.technologies}
 				/>
 			)}
 			
